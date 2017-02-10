@@ -9,7 +9,7 @@ public class FileDataLoad implements IDataReader  {
 
         double x;
 
-        File file = new File("src/by/epam/zhurau/train1/Data/value.txt");
+        File file = new File("src/by/epam/zhurau/train1/data/value.txt");
        // if (!file.exists()){
           //  throw new FileNotFoundException(file.getName());
        // }
