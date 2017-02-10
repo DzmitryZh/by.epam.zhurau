@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Created by Dzmitry_Zhurau on 2/10/2017.
  */
-public class main {
+public class Main {
     public static void main (String[] args){
         double val ;
 
