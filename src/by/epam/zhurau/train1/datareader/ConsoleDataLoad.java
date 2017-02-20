@@ -1,4 +1,4 @@
-package by.epam.zhurau.train1.main;
+package by.epam.zhurau.train1.datareader;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class ConsoleDataLoad implements IDataReader {
             System.out.print("Enter radius:");
             if (scanner.hasNextDouble()) {
                 x = scanner.nextDouble();
-                if (x < 0.0){
+                if (x <= 0.0){
                     x = 0.0;
                     System.out.println("The value is incorrect...");
                 }

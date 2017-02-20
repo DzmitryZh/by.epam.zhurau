@@ -1,4 +1,4 @@
-package by.epam.zhurau.train1.main;
+package by.epam.zhurau.train1.datareader;
 
 /**
  * Created by Dzmitry_Zhurau on 2/10/2017.

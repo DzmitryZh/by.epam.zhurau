@@ -1,4 +1,4 @@
-package by.epam.zhurau.train1.main;
+package by.epam.zhurau.train1.datareader;
 
 import java.io.*;
 /**
@@ -9,7 +9,7 @@ public class FileDataLoad implements IDataReader  {
 
         double x;
 
-        File file = new File("src/by/epam/zhurau/train1/data/value.txt");
+        File file = new File("data/value.txt");
        // if (!file.exists()){
           //  throw new FileNotFoundException(file.getName());
        // }
@@ -20,7 +20,7 @@ public class FileDataLoad implements IDataReader  {
             try {
                 String s = in.readLine();
                 x = Double.valueOf(s);
-                if (x < 0.0){
+                if (x <= 0.0){
                     x = 0.0;
                     System.out.println("The value is incorrect...");
                     throw new RuntimeException();
